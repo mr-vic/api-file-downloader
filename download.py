@@ -1,7 +1,8 @@
 import requests
 
 def saveToFile(dirPath, content, fileName):
-    with open(fileName, "wb") as f:
+    print(dirPath + fileName)
+    with open(dirPath + fileName, "wb") as f:
         f.write(content)
 
 def download(endpoint, dirPath, fileName, token = None):

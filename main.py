@@ -8,7 +8,9 @@ load_dotenv()
 getName = os.environ["getName"]
 getParam = os.environ["getParam"]
 url = os.environ["url"]
+dirPath = os.environ["dirPath"]
 authToken= os.environ["authToken"]
 
 if __name__ == '__main__':
-    print(download(f'{url}{getName}={getParam}', "C:\\backup", "response.jpg", token=authToken))
+    
+    print(download(f'{url}{getName}={getParam}', dirPath, "response.jpg", token=authToken))
