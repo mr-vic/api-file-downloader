@@ -11,3 +11,4 @@ def download(endpoint, dirPath, fileName, token = None):
     contentType = res.headers['content-type']
     saveToFile(dirPath, res.content, fileName)
     return res
+
