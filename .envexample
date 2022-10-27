@@ -1,4 +1,4 @@
-url="https://example.com"
+url="https://example.com?param="
 authToken="Bearer token"
 connString = "postgresql://user:password@host/dbname"
 dirPath="Path/To/Dir"
